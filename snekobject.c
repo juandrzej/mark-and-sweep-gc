@@ -122,11 +122,11 @@ snek_object_t *snek_add(vm_t *vm, snek_object_t *a, snek_object_t *b) {
 
       snek_object_t *array = new_snek_array(vm, length);
 
-      for (int i = 0; i < a_len; i++) {
+      for (size_t i = 0; i < a_len; i++) {
         snek_array_set(array, i, snek_array_get(a, i));
       }
 
-      for (int i = 0; i < b_len; i++) {
+      for (size_t i = 0; i < b_len; i++) {
         snek_array_set(array, i + a_len, snek_array_get(b, i));
       }
 
