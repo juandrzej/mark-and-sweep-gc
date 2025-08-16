@@ -87,6 +87,7 @@ Your garbage collector is working! 🎉
 
 ## Project Structure
 
+```
 ├── vm.c # Virtual machine and GC implementation
 ├── vm.h # VM header file
 ├── snekobject.c # Object system implementation
@@ -98,6 +99,7 @@ Your garbage collector is working! 🎉
 ├── main.c # Test suite
 ├── Makefile # Build configuration
 └── README.md # This file
+```
 
 ## Learning Journey
 
