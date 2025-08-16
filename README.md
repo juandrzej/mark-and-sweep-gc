@@ -34,14 +34,23 @@ The garbage collector manages these "Snek" language objects:
 ## Building and Running
 
 Clone the repository:
-git clone https://github.com/yourusername/mark-and-sweep-gc.git
+
+```bash
+git clone https://github.com/juandrzej/mark-and-sweep-gc.git
 cd mark-and-sweep-gc
+```
 
 Build the project:
+
+```bash
 make
+```
 
 Run the tests:
+
+```bash
 ./gc_test
+```
 
 ### Requirements
 
@@ -50,11 +59,14 @@ Run the tests:
 
 ### Manual compilation
 
+```bash
 gcc -Wall -Wextra -std=c99 \*.c -o gc_test
 ./gc_test
+```
 
 ## Example Output
 
+```bash
 === Garbage Collector Tests ===
 
 Running test_simple...
@@ -71,6 +83,7 @@ test_full PASSED
 
 All tests completed successfully!
 Your garbage collector is working! 🎉
+```
 
 ## Project Structure
 
